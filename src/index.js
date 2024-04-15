@@ -4,10 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { StoreProvider } from './Store'; //Enregistre notre valeur afin qu'on puisse les réutiliser partout dans nos composants
+import { HelmetProvider } from 'react-helmet-async';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <StoreProvider>
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>
+    </StoreProvider>
   </React.StrictMode>
 );
 

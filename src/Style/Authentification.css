@@ -1,0 +1,58 @@
+/* InscriptionUser et Register */
+/* Style général du formulaire */
+.my-form {
+  max-width: 600px;
+  /* margin: auto; */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #dac0c0;
+}
+
+/* Style des champs de formulaire */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Style du bouton de soumission */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Register seul*/
+/* Style du bouton de soumission */
+.submit-buttonRegister {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-buttonRegister:hover {
+  background-color: #06b300;
+}
